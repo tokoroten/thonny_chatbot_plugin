@@ -8,6 +8,8 @@
 
 <!-- 強烈建議在此處添加一個截圖或 GIF 動畫來展示外掛介面 -->
 <!-- ![Screenshot](images/screenshot.png) -->
+![ezgif-2c438ab725b002](https://github.com/user-attachments/assets/4edd34cf-7832-4af2-b35d-cebfd58fb8db)
+
 
 ## ✨ 功能特色
 
@@ -108,5 +110,8 @@
 本專案採用 [MIT 授權](LICENSE)。 <!-- 建議在您的倉庫中包含一個 LICENSE 檔案 -->
 
 ## 🙏 致謝
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/pondahai)
+
 
 *   感謝 [Thonny IDE](https://thonny.org/) 提供了一個優秀且易於擴展的 Python 開發環境。
