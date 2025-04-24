@@ -1354,21 +1354,21 @@ def load_plugin():
     # ... (add_view code for location 'e') ...
     try:
         workbench.add_view(AIChatView, PLUGIN_TITLE, "w", view_id=VIEW_ID) # Use 'e'
-        logger.info(f"Registered view '{PLUGIN_TITLE}' at location 'e'.")
+        logger.info(f"Registered view '{PLUGIN_TITLE}' at location 'w'.")
     except TypeError:
         workbench.add_view(AIChatView, PLUGIN_TITLE, "w") # Fallback 'e'
-        logger.info(f"Registered view '{PLUGIN_TITLE}' (fallback) at location 'e'.")
+        logger.info(f"Registered view '{PLUGIN_TITLE}' (fallback) at location 'w'.")
     except Exception as e: # ... (handle add_view error) ...
         return
 
     # 2. Add command to the "View" menu for toggling the view
     # ... (add_command for toggle_ai_chat_view) ...
-    try:
-        workbench.add_command(command_id="toggle_ai_chat_view", menu_name="view",
-                                command_label=PLUGIN_TITLE, handler=toggle_ai_chat_view, group=10)
-        logger.info("Added 'toggle_ai_chat_view' command to 'View' menu.")
-    except Exception as e: # ... (handle add_command error) ...
-        pass # Continue loading other parts
+#     try:
+#         workbench.add_command(command_id="toggle_ai_chat_view", menu_name="view",
+#                                 command_label=PLUGIN_TITLE, handler=toggle_ai_chat_view, group=10)
+#         logger.info("Added 'toggle_ai_chat_view' command to 'View' menu.")
+#     except Exception as e: # ... (handle add_command error) ...
+#         pass # Continue loading other parts
 
     # --- 3. Create "AI" Main Menu and "Settings" item ---
     ai_menu_name = "ai_plugin_menu" # Internal name for the AI menu
