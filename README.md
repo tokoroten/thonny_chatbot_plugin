@@ -111,7 +111,11 @@
 
 ## 🙏 致謝
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/pondahai)
-
-
 *   感謝 [Thonny IDE](https://thonny.org/) 提供了一個優秀且易於擴展的 Python 開發環境。
+
+## Support the Project! ❤️
+
+This project is a labor of love, and I'm incredibly grateful for your use and feedback. If you appreciate what I'm building and want to help keep it going, any contribution would be greatly appreciated!  Your support allows me to dedicate more time to development, bug fixes, and new features.
+
+Here are some ways you can contribute:  
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/pondahai)
